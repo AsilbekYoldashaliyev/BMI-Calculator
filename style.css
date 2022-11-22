@@ -92,6 +92,7 @@ ion-icon {
 }
 
 .height--container {
+  padding: 1.2rem 0;
   display: flex;
   align-items: center;
   line-height: 2rem;
@@ -99,13 +100,95 @@ ion-icon {
   width: 87%;
   height: 20rem;
   flex-direction: column;
+  gap: 2rem;
 }
 
 .number {
   display: flex;
+  color: #ffff;
 }
 
 .bold {
-  font-size: 3rem;
-  font-weight: 800;
+  font-size: 4.4rem;
+}
+
+.height--container h3 {
+  font-size: 1.4rem;
+  color: rgb(124, 112, 112);
+}
+
+.cm {
+  font-size: 1.6rem;
+  padding: 0.8rem 0;
+}
+
+.age {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.age--container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.weight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15rem;
+  height: 17rem;
+  background-color: rgb(39, 42, 78);
+  flex-direction: column;
+  gap: 1rem;
+  color: #ffff;
+}
+
+.ages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15rem;
+  height: 17rem;
+  background-color: rgb(39, 42, 78);
+  flex-direction: column;
+  gap: 1rem;
+  color: #ffff;
+}
+
+.plus {
+  font-size: 5.5rem;
+}
+
+.ages h4 {
+  font-size: 4rem;
+}
+
+.weight h4 {
+  font-size: 4rem;
+}
+
+.weight p {
+  font-size: 1.2rem;
+}
+
+.ages p {
+  font-size: 1.2rem;
+}
+
+.bmi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+.bmi button {
+  background-color: rgb(225, 78, 100);
+  padding: 2rem 9rem;
+  font-weight: 600;
+  color: #ffff;
 }
