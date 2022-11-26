@@ -1,0 +1,443 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: rgb(16, 20, 53);
+  width: 100vw;
+  height: 100vh;
+  font-family: "Rubik", sans-serif;
+}
+
+/* Nav */
+
+nav {
+  background-color: rgb(18, 21, 59);
+}
+
+.nav--container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(213, 214, 223);
+  gap: 6rem;
+  padding-right: 8rem;
+  height: 6rem;
+}
+
+/* Nav end */
+
+/* Gender start */
+
+.gender {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gender--container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.male {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15rem;
+  height: 15rem;
+  background-color: rgb(39, 42, 78);
+  flex-direction: column;
+  gap: 2rem;
+  color: #ffff;
+}
+
+ion-icon {
+  font-size: 6.8rem;
+}
+
+.title--g {
+  font-size: 2rem;
+}
+
+.female {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15rem;
+  height: 15rem;
+  background-color: rgb(39, 42, 78);
+  flex-direction: column;
+  gap: 2rem;
+  color: #ffff;
+}
+
+/* Gender end */
+
+/* Height startt */
+
+.height {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.height--container {
+  padding: 1.2rem 0;
+  display: flex;
+  align-items: center;
+  line-height: 2rem;
+  background-color: rgb(39, 42, 78);
+  width: 87%;
+  height: 20rem;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.number {
+  display: flex;
+  color: #ffff;
+}
+
+.bold {
+  font-size: 4.4rem;
+}
+
+.height--container h3 {
+  font-size: 1.4rem;
+  color: rgb(124, 112, 112);
+}
+
+.cm {
+  font-size: 1.6rem;
+  padding: 0.8rem 0;
+}
+
+.age {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.age--container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.weight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15rem;
+  height: 17rem;
+  background-color: rgb(39, 42, 78);
+  flex-direction: column;
+  gap: 1rem;
+  color: #ffff;
+}
+
+.ages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15rem;
+  height: 17rem;
+  background-color: rgb(39, 42, 78);
+  flex-direction: column;
+  gap: 1rem;
+  color: #ffff;
+}
+
+.plus {
+  font-size: 5.5rem;
+}
+
+.ages h4 {
+  font-size: 4rem;
+}
+
+.weight h4 {
+  font-size: 4rem;
+}
+
+.weight p {
+  font-size: 1.2rem;
+}
+
+.ages p {
+  font-size: 1.2rem;
+}
+
+.bmi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+.bmi button {
+  background-color: rgb(225, 78, 100);
+  padding: 2rem 9rem;
+  font-weight: 600;
+  color: #ffff;
+}
+
+/* rem and em do NOT depend on html font-size in media queries! Instead, 1rem = 1em = 16px */
+
+/**************************/
+/* BELOW 1344px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 84em) {
+}
+
+/**************************/
+/* BELOW 1200px (Landscape Tablets) */
+/**************************/
+
+@media (max-width: 75em) {
+  html {
+    /* 9px / 16px  */
+    font-size: 56.25%;
+  }
+}
+
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+
+@media (max-width: 59em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50%;
+  }
+}
+
+/**************************/
+/* BELOW 704px (Smaller tablets) */
+/**************************/
+
+@media (max-width: 44em) {
+}
+
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media (max-width: 34em) {
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    background-color: rgb(16, 20, 53);
+    width: 100vw;
+    height: 100vh;
+    font-family: "Rubik", sans-serif;
+  }
+  
+  /* Nav */
+  
+  nav {
+    background-color: rgb(18, 21, 59);
+  }
+  
+  .nav--container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(213, 214, 223);
+    gap: 6rem;
+    padding-right: 8rem;
+    height: 6rem;
+  }
+  
+  /* Nav end */
+  
+  /* Gender start */
+  
+  .gender {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .gender--container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+  }
+  
+  .male {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    height: 15rem;
+    background-color: rgb(39, 42, 78);
+    flex-direction: column;
+    gap: 2rem;
+    color: #ffff;
+  }
+  
+  ion-icon {
+    font-size: 6.8rem;
+  }
+  
+  .title--g {
+    font-size: 2rem;
+  }
+  
+  .female {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    height: 15rem;
+    background-color: rgb(39, 42, 78);
+    flex-direction: column;
+    gap: 2rem;
+    color: #ffff;
+  }
+  
+  /* Gender end */
+  
+  /* Height startt */
+  
+  .height {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 2rem 0;
+  }
+  
+  .height--container {
+    padding: 1.2rem 0;
+    display: flex;
+    align-items: center;
+    line-height: 2rem;
+    background-color: rgb(39, 42, 78);
+    width: 87%;
+    height: 20rem;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .number {
+    display: flex;
+    color: #ffff;
+  }
+  
+  .bold {
+    font-size: 4.4rem;
+  }
+  
+  .height--container h3 {
+    font-size: 1.4rem;
+    color: rgb(124, 112, 112);
+  }
+  
+  .cm {
+    font-size: 1.6rem;
+    padding: 0.8rem 0;
+  }
+  
+  .age {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  .age--container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+  }
+  
+  .weight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    height: 17rem;
+    background-color: rgb(39, 42, 78);
+    flex-direction: column;
+    gap: 1rem;
+    color: #ffff;
+  }
+  
+  .ages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    height: 17rem;
+    background-color: rgb(39, 42, 78);
+    flex-direction: column;
+    gap: 1rem;
+    color: #ffff;
+  }
+  
+  .plus {
+    font-size: 5.5rem;
+  }
+  
+  .ages h4 {
+    font-size: 4rem;
+  }
+  
+  .weight h4 {
+    font-size: 4rem;
+  }
+  
+  .weight p {
+    font-size: 1.2rem;
+  }
+  
+  .ages p {
+    font-size: 1.2rem;
+  }
+  
+  .bmi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+  }
+  
+  .bmi button {
+    background-color: rgb(225, 78, 100);
+    padding: 2rem 9rem;
+    font-weight: 600;
+    color: #ffff;
+  }
+
+  }
+
+/* 
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
