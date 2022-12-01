@@ -571,29 +571,29 @@
 // return 'sizning dostingiz emas'
 // }
 
-const Mark = ["Mark"];
-const Markinfo = [1.69, 78];
-const John = ["John"];
-const Johninfo = [1.95, 92];
+// const Mark = ["Mark"];
+// const Markinfo = [1.69, 78];
+// const John = ["John"];
+// const Johninfo = [1.95, 92];
 
-const MarkBMI = Markinfo[1] / Markinfo[0] ** 2;
-const JohnBMI = Johninfo[1] / Johninfo[0] ** 2;
+// const MarkBMI = Markinfo[1] / Markinfo[0] ** 2;
+// const JohnBMI = Johninfo[1] / Johninfo[0] ** 2;
 
-const calcBMI = (calc) => {
-  if (calc === "Mark") {
-    return `${Mark}ning BMI = ${MarkBMI}`;
-  } else if (calc === "John") return `${John}ning BMI = ${JohnBMI}`;
-  else return `Bu malumot mavjud emas. Siz kiritgan ism ${calc} `;
-};
+// const calcBMI = (calc) => {
+//   if (calc === "Mark") {
+//     return `${Mark}ning BMI = ${MarkBMI}`;
+//   } else if (calc === "John") return `${John}ning BMI = ${JohnBMI}`;
+//   else return `Bu malumot mavjud emas. Siz kiritgan ism ${calc} `;
+// };
 
 
 
-const compareBMI = () => {
-  if (MarkBMI > JohnBMI) {
-    return `${Mark}ning BMI katta`;
-  } else if (MarkBMI < JohnBMI) {
-    return `${John}ning BMI katta`;
-  } else return `BMIlar teng.`;
-};
-console.log(calcBMI("John"));
-console.log (compareBMI())
+// const compareBMI = () => {
+//   if (MarkBMI > JohnBMI) {
+//     return `${Mark}ning BMI katta`;
+//   } else if (MarkBMI < JohnBMI) {
+//     return `${John}ning BMI katta`;
+//   } else return `BMIlar teng.`;
+// };
+// console.log(calcBMI("John"));
+// console.log (compareBMI())
