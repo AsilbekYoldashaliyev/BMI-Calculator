@@ -318,7 +318,6 @@
 //   console.log ('koala won')
 // }
 
-
 // // const month = (Yanvar, Fevral, Mart, Aprel, May, Iyun, Iyul, Avgust, Sentyabr, Oktyabr, Noyabr, Dekabr) => {
 // //     if(Yanvar){
 // //      return`Yanvar oyida 31 kun bor`;
@@ -346,9 +345,8 @@
 // //      return Dekabr oyida 31 kun bor;
 // //     } else return Oy nomini hato kiritdingiz;
 // //  }
- 
-// //  console.log(month(Yanvar, Fevral, Mart, Aprel, May, Iyun, Iyul, Avgust, Sentyabr, Oktyabr, Noyabr, Dekabr));
 
+// //  console.log(month(Yanvar, Fevral, Mart, Aprel, May, Iyun, Iyul, Avgust, Sentyabr, Oktyabr, Noyabr, Dekabr));
 
 // // const year = ("year") {
 // //   if(year){
@@ -369,7 +367,6 @@
 // // }
 
 // // console.log (month)
-
 
 // ///////////////////////////////////////
 // // Introduction to Arrays
@@ -447,7 +444,6 @@
 
 // // console.log(month('Noyab'));
 
-
 // // // 1. oy nomlariga (oylarNomi) array yasaladi
 // // // IXTIYORIY: 2. returnga qo'yiladigan elementlarga alohida array yasaysizlar
 // // // month('Noyab') => month(oylarNomi[11])
@@ -455,7 +451,6 @@
 // // const year = 'month'
 
 // // const year = ['Yanvar','Fevral','Mart','Aprel','May','Iyun','Iyul','Augst','Sentabr','Oktabr','Noyabr','Dekabr']
-
 
 // // const arrayLength = array.length;
 
@@ -527,19 +522,18 @@
 // // const infoOfPhones = (nameOfPhone) => {
 // //   switch (nameOfPhone) {
 
-
 // //       case 'Samsung S1':
 // //           return 'Hajmi kichikroq va arzon, narxki 70$';
-      
+
 // //       case 'Samsung S2':
 // //           return 'Samsung S1ga qaraganda yaxhsiroq, ammo biroz qimmat, narxi 90$';
-         
+
 // //       case 'Samsung S3':
 // //          return 'Kamera tiniq va yaxshi ishlaydi Narxi 110$';
-        
+
 // //       case 'Samsung S22 Ultra':
 // //          return 'Samsung telefonlari orasida eng yaxshisi Kamerasi 108mp va juda tiniq. Suvdaham ishlay oladi. Narxi 1400$';
-         
+
 // //       case 'Iphone X':
 // //       return    'Samsung ga qaraganda farq qiladi Narxi qimmat ammo yaxshi ishlaydi Narxi 200$';
 
@@ -560,9 +554,9 @@
 // const displayMyFriends = (friend) => {
 
 // console.log (friends[1])
-  
+
 //   }
-  
+
 // if (friend == Rowan) {
 // return 'Rowan sizning dostingiz'
 // }
@@ -576,3 +570,30 @@
 // else {
 // return 'sizning dostingiz emas'
 // }
+
+const Mark = ["Mark"];
+const Markinfo = [1.69, 78];
+const John = ["John"];
+const Johninfo = [1.95, 92];
+
+const MarkBMI = Markinfo[1] / Markinfo[0] ** 2;
+const JohnBMI = Johninfo[1] / Johninfo[0] ** 2;
+
+const calcBMI = (calc) => {
+  if (calc === "Mark") {
+    return `${Mark}ning BMI = ${MarkBMI}`;
+  } else if (calc === "John") return `${John}ning BMI = ${JohnBMI}`;
+  else return `Bu malumot mavjud emas. Siz kiritgan ism ${calc} `;
+};
+
+
+
+const compareBMI = () => {
+  if (MarkBMI > JohnBMI) {
+    return `${Mark}ning BMI katta`;
+  } else if (MarkBMI < JohnBMI) {
+    return `${John}ning BMI katta`;
+  } else return `BMIlar teng.`;
+};
+console.log(calcBMI("John"));
+console.log (compareBMI())
